@@ -1,2 +1,0 @@
-INDEX VERSION 1.131+C:\Users\ть\Desktop\GmailDefender\gmail java\.metadata\.plugins\org.eclipse.jdt.core
-3594998132.index

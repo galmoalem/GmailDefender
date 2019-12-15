@@ -1,5 +1,0 @@
-package config.firebase;
-
-public class FirebaseConfig {
-
-}

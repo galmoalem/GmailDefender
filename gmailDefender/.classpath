@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/lib-extra-mongodb-support/bson-3.10.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/lib-extra-mongodb-support/mongodb-driver-3.10.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/lib-extra-mongodb-support/mongodb-driver-core-3.10.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/lib-extra-mongodb-support/spring-boot-starter-data-mongodb-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/lib-extra-mongodb-support/spring-data-mongodb-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/accessors-smart-1.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/activemq-broker-5.15.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/activemq-client-5.15.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/activemq-openwire-legacy-5.15.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/android-json-0.0.20131108.vaadin1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/antlr-2.7.7.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/asm-5.0.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/aspectjweaver-1.9.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/assertj-core-3.11.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/byte-buddy-1.9.10.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/byte-buddy-agent-1.9.10.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/classmate-1.4.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/dom4j-2.1.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/evo-inflector-1.2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/guava-18.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/h2-1.4.197.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/hamcrest-core-1.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/hamcrest-library-1.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/hawtbuf-1.11.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/hibernate-commons-annotations-5.0.4.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/hibernate-core-5.3.7.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/hibernate-validator-6.0.14.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/HikariCP-3.2.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/jackson-annotations-2.9.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/jackson-core-2.9.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/jackson-databind-2.9.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/jackson-datatype-jdk8-2.9.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/jackson-datatype-jsr310-2.9.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/jackson-module-parameter-names-2.9.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/jandex-2.0.5.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/javassist-3.23.1-GA.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/javax.activation-api-1.2.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/javax.annotation-api-1.3.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/javax.jms-api-2.0.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/javax.persistence-api-2.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/javax.transaction-api-1.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/jaxb-api-2.3.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/jboss-logging-3.3.2.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/jsonassert-1.5.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/json-path-2.4.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/json-smart-2.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/jul-to-slf4j-1.7.25.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/junit-4.12.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/log4j-api-2.11.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/log4j-to-slf4j-2.11.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/logback-classic-1.2.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/logback-core-1.2.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/mockito-core-2.23.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/mssql-jdbc-6.4.0.jre8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/mysql-connector-java-8.0.15.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/objenesis-2.6.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/postgresql-42.2.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/reactive-streams-1.0.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/reactor-core-3.2.6.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/slf4j-api-1.7.25.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/snakeyaml-1.23.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-aop-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-aspects-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-beans-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-autoconfigure-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-starter-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-starter-activemq-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-starter-aop-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-starter-cache-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-starter-data-jpa-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-starter-data-rest-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-starter-hateoas-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-starter-integration-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-starter-jdbc-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-starter-json-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-starter-logging-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-starter-test-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-starter-tomcat-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-starter-web-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-test-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-boot-test-autoconfigure-2.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-context-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-context-support-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-core-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-data-commons-2.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-data-jpa-2.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-data-rest-core-3.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-data-rest-hal-browser-3.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-data-rest-webmvc-3.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-expression-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-hateoas-0.25.1.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-integration-core-5.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-jcl-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-jdbc-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-jms-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-messaging-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-orm-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-plugin-core-1.2.0.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-retry-1.2.4.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-test-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-tx-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-web-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/spring-webmvc-5.1.5.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/tomcat-embed-core-9.0.16.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/tomcat-embed-el-9.0.16.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/tomcat-embed-websocket-9.0.16.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/validation-api-2.0.1.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/integrationcourse/ioc-db-rest-lib/xmlunit-core-2.6.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/spring-security/spring-aop-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/spring-security/spring-beans-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/spring-security/spring-context-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/spring-security/spring-core-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/spring-security/spring-expression-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/spring-security/spring-jcl-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/spring-security/spring-security-core-5.0.0.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/animal-sniffer-annotations-1.14.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/annotations-4.1.1.4.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/api-common-1.8.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/checker-compat-qual-2.5.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/commons-codec-1.11.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/commons-lang3-3.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/commons-logging-1.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/error_prone_annotations-2.1.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/firebase-admin-6.10.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/gax-1.46.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/gax-grpc-1.46.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/gax-httpjson-0.63.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-api-client-1.30.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-api-client-gson-1.30.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-api-services-storage-v1-rev20190523-1.28.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-auth-library-credentials-0.16.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-auth-library-oauth2-http-0.16.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-cloud-core-1.79.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-cloud-core-grpc-1.79.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-cloud-core-http-1.79.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-cloud-firestore-1.9.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-cloud-storage-1.79.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-http-client-1.30.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-http-client-appengine-1.30.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-http-client-gson-1.30.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-http-client-jackson2-1.30.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/google-oauth-client-1.30.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/grpc-alts-1.21.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/grpc-api-1.21.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/grpc-auth-1.21.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/grpc-context-1.19.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/grpc-core-1.21.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/grpc-grpclb-1.21.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/grpc-netty-shaded-1.21.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/grpc-protobuf-1.21.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/grpc-protobuf-lite-1.21.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/grpc-stub-1.21.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/gson-2.8.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/guava-26.0-android.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/httpclient-4.5.8.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/httpcore-4.4.11.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/j2objc-annotations-1.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/jackson-core-2.9.9.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/javax.annotation-api-1.3.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/jsr305-3.0.2.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/netty-buffer-4.1.34.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/netty-codec-4.1.34.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/netty-codec-http-4.1.34.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/netty-common-4.1.34.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/netty-handler-4.1.34.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/netty-resolver-4.1.34.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/netty-transport-4.1.34.Final.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/opencensus-api-0.21.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/opencensus-contrib-grpc-metrics-0.21.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/opencensus-contrib-grpc-util-0.21.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/opencensus-contrib-http-util-0.21.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/protobuf-java-3.7.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/protobuf-java-util-3.7.1.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/proto-google-cloud-firestore-admin-v1-1.9.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/proto-google-cloud-firestore-v1-1.9.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/proto-google-cloud-firestore-v1beta1-0.62.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/proto-google-common-protos-1.16.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/proto-google-iam-v1-0.12.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/slf4j-api-1.7.25.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/גל/Desktop/GmailDefender/gmail java/firebase-jars/threetenbp-1.3.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

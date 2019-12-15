@@ -1,9 +1,0 @@
-package infra;
-
-import firebase.FirebaseTokenHolder;
-
-public interface FirebaseService {
-
-	
-	FirebaseTokenHolder parseToken(String idToken);
-}
