@@ -1,0 +1,13 @@
+import java.util.Collection;
+
+import org.springframework.security.authentication.AbstractAuthenticationToken;
+import org.springframework.security.core.GrantedAuthority;
+
+public class FirebaseAuthenticationToken extends AbstractAuthenticationToken {
+
+	public FirebaseAuthenticationToken(Collection<? extends GrantedAuthority> arg0) {
+		super(arg0);
+		// TODO Auto-generated constructor stub
+	}
+
+}

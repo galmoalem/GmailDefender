@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="data.UserEntity"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="data.MailEntity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="org.hibernate.validator.constraints.Email"/>
+    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.security.authentication.AbstractAuthenticationToken"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="org.springframework.web.filter.OncePerRequestFilter"/>
+    <fullyQualifiedTypeName name="firebase.FirebaseTokenHolder"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="android.annotation.TargetApi"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Conditional"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+    <fullyQualifiedTypeName name="org.apache.catalina.valves.rewrite.RewriteCond.Condition"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UserDetailsService"/>
+    <fullyQualifiedTypeName name="firebase.FirebaseAuthenticationToken"/>
+    <fullyQualifiedTypeName name="conditionals.FirebaseCondition"/>
+    <fullyQualifiedTypeName name="infra.FirebaseService"/>
+    <fullyQualifiedTypeName name="infra.UserServicelmpl"/>
+    <fullyQualifiedTypeName name="config.firebase.FirebaseTokenHolder"/>
+    <fullyQualifiedTypeName name="config.firebase.FirebaseAuthenticationToken"/>
+</qualifiedTypeNameHistroy>

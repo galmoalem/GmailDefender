@@ -1,0 +1,17 @@
+package java.infra;
+
+import org.springframework.stereotype.Service;
+
+import config.firebase.FirebaseTokenHolder;
+
+
+@Service
+@firebaseco
+public class FirebaseServicelmpl implements FirebaseService {
+
+	@Override
+	public FirebaseTokenHolder parseToken(String firebaseToken) {
+		return new FirebaseParser().parseToken(firebaseToken);
+	}
+
+}

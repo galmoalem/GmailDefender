@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1574766665525_0" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=gmailDefender/src\/main" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=gmailDefender/src\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1574766665546_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1574766667224_2" label="Window Working Set" name="Aggregate for window 1574766667224"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1575300718295_3" label="Window Working Set" name="Aggregate for window 1575300718295"/>
+</workingSetManager>
